@@ -1,3 +1,4 @@
+ 
 <meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
 <html lang="fa">
 <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -379,6 +380,36 @@
 <p><img alt="Coin" id="coin" onclick="earnMoney(event)" src="https://uploadkon.ir/uploads/01ee15_252aa8d87c-857c-407b-b549-9e10edfd52d8-removebg.png" /></p>
 
 <div id="buttons"><button onclick="shakeButton(this); showRankings();"><i class="material-icons">assignment</i> درجه</button><button onclick="shakeButton(this); showFriends();"><i class="material-icons">group</i> دوستان</button><button onclick="shakeButton(this); showTasks();"><i class="material-icons">task</i> وظایف</button><button onclick="shakeButton(this); openShop();"><i class="material-icons">shopping_cart</i> فروشگاه</button><button onclick="shakeButton(this); goHome();"><i class="material-icons home-icon">home</i> خانه</button></div>
+
+<!-- دکمه ضربدر -->
+<a href="https://mo93ch-dev.github.io/Aryapardakhttel" class="close-btn">❌</a>
+
+<style>
+.close-btn {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  background: red;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: none;
+  z-index: 9999;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: 0.2s;
+}
+
+.close-btn:hover {
+  background: darkred;
+  transform: scale(1.1);
+}
+</style>
 
 <div class="modal" id="shop">
 <div class="modal-content"><span class="close" onclick="closeModal('shop')">&times;</span>
